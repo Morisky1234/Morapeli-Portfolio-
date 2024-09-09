@@ -1,0 +1,60 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+    background-color: #343154; 
+    font-family: “Comic Sans MS”, “Comic Sans”, cursive;     
+}
+.NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    color: white;
+
+}
+.Title{
+    padding-left: 60px;
+    color: #ccc;
+    text-shadow: 0 0 10px #fff;
+
+}
+.Menu{
+    display: flex;
+    list-style: none;
+    margin-right: 60px;
+}
+#MenuItem{
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+#MenuItemMain{
+    
+}
+#MenuItem:Hover{
+        text-shadow: 0 0 20px #eef;
+    }
+
+.Body{
+    padding-top: 100px;
+    color: white;
+}
+.Bottom{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+
+}
+#Contact{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.ContactBn{
+    background: none;
+}
+.Box-Content{
+    display: center;
+}
